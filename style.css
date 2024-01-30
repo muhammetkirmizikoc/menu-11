@@ -14,11 +14,22 @@ body {
     transition: all 100ms;
 }
 
+#minimenu {
+    overflow-x: scroll;
+    position: sticky;
+    top: 0;
+}
+
 #minimenu li a {
     display: block;
     border-radius: 10px;
 
 }
+
+#minimenu::-webkit-scrollbar {
+    width: 0px;
+}
+
 
 #vd {
     padding-top: 3px;
